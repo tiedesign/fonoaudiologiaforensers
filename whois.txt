@@ -1,0 +1,55 @@
+WHOIS
+=====
+
+http://www.fonoaudiologiaforensers.com.br/
+
+% Copyright (c) Nic.br
+% The use of the data below is only permitted as described in
+% full by the terms of use at http://registro.br/termo/en.html ,
+% being prohibited its distribution, commercialization or
+% reproduction, in particular, to use it for advertising or
+% any similar purpose.
+% 2016-06-07 16:27:52 (BRT -03:00)
+
+domain: fonoaudiologiaforensers.com.br
+owner: D?BORA RUTTKE VON SALTI?L
+ownerid: 004.868.060-57
+country: BR
+owner-c: DERSA42
+admin-c: DERSA42
+tech-c: RAAOL40
+billing-c: DERSA42
+nserver: d.sec.dns.br
+nsstat: 20160606 AA
+nslastaa: 20160606
+nserver: e.sec.dns.br
+nsstat: 20160606 AA
+nslastaa: 20160606
+dsrecord: 4039 RSA/SHA-1 233DFAF718C2CEE86EFD43C573F0428662316025
+dsstatus: 20160606 DSOK
+dslastok: 20160606
+saci: yes
+created: 20150306 #13926731
+expires: 20170306
+changed: 20150310
+status: published
+
+nic-hdl-br: DERSA42
+person: D?BORA RUTTKE VON SALTI?L
+e-mail: fonoforensers@gmail.com
+created: 20150306
+changed: 20150306
+
+nic-hdl-br: RAAOL40
+person: Rafael Andrade de Oliveira
+e-mail: eu.rafa@gmail.com
+created: 20110530
+changed: 20110530
+
+% Security and mail abuse issues should also be addressed to
+% cert.br, http://www.cert.br/ , respectivelly to cert@cert.br
+% and mail-abuse@cert.br
+%
+% whois.registro.br accepts only direct match queries. Types
+% of queries are: domain (.br), registrant (tax ID), ticket,
+% provider, contact handle (ID), CIDR block, IP and ASN.

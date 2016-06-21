@@ -1,0 +1,42 @@
+Briefing
+========
+
+Orçamento:
+
+	- Website com design clean com pouco conteúdo/links
+	- SEO - otimização para sites de busca como o Google
+
+Company: Fonoaudiologia Forense
+
+Abstract: 
+	A Fonoaudiologia Forense auxilia a Justiça na elucidação de crimes onde a comunicação humana tornou-se seu principal vestígio. 
+
+	A Fonoaudiologia Forense tem como objetivo realizar perícia em arquivos de audio e imagem, como a identificação de falantes, verificação de manipulação ou edição do arquivo, transcrição de conteúdo e biometria facial.
+
+Contact: Débora Von Saltiél
+
+E-mail: fonoforensers@gmail.com
+
+Phones:
+	(51) 91853608
+	(51) 81196311
+
+Keywords: Perícia de voz, perícia de áudio, identificação de falantes
+
+Goals:
+
+Requirements:
+
+	- SEO Google
+	- Design clean
+	- Few links
+
+Extra info:
+
+	Business unique in RS
+
+Links:
+
+https://www.facebook.com/Fonoaudiologia-Forense-RS-1551299601807530/
+
+http://www.fonoaudiologiaforensers.com.br/
