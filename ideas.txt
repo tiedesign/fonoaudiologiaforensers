@@ -1,4 +1,4 @@
-Referencias:
+﻿Referencias:
 
 	http://www.audiorestoration.com/index.html
 
@@ -120,3 +120,17 @@ Dúvidas:
 
 - Contas de redes sociais, além do Facebook? Ex.: Twitter, Youtube, Instagram
 	
+
+
+
+
+Referências exterior:
+
+	http://www.jpfrench.com/
+
+	http://fonetic.com/es/speech-analytics/
+
+	http://fonetic.com/es/biometria-voz/
+
+	http://speechpro.com/services
+
