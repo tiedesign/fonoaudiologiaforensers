@@ -4,17 +4,17 @@ Proposta inicial do design
 Cliente
 -------
 
-**Nome**: Fonoaudiologia Forense
-**Contato**: Débora / Samantha
+**Nome**: Fonoaudiologia Forense  
+**Contato**: Débora / Samantha  
 **Telefones**: (51) 91853608 / (51) 81196311
 
 Orçamento
 ---------
 
-**Serviço**: Website responsivo + SEO
-**Domínio**: http://www.fonoaudiologiaforensers.com.br/
-**Requisitos**: Website com design clean, com pouco conteúdo/links, aparecendo em sites de busca como o Google.
-**Referências citadas**: 
+**Serviço**: Website responsivo + SEO  
+**Domínio**: http://www.fonoaudiologiaforensers.com.br/  
+**Requisitos**: Website com design clean, com pouco conteúdo/links, aparecendo em sites de busca como o Google.  
+**Referências citadas**:  
 - http://fonoaudiologiaforense-mg.com.br/
 - http://www.voxforense.com/
 - http://devesefeier.com.br/
