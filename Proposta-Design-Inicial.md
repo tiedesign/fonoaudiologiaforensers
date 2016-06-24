@@ -24,19 +24,19 @@ Proposta de design
 
 #### Resumo
 
-	Design exclusivo para um website em página única com poucas seções ou links, compatível com dispositivos móveis.
-	Se optou por criar um design mais atrativo, destacando o que é a empresa e o que ela faz, diferente do estilo apenas institucional.
-	A proposta visa o link com o tipo de serviço oferecido através do uso de fotos, imagens de fundo e cores.
+Design exclusivo para um website em página única com poucas seções ou links, compatível com dispositivos móveis.
+Se optou por criar um design mais atrativo, destacando o que é a empresa e o que ela faz, diferente do estilo apenas institucional.
+A proposta visa o link com o tipo de serviço oferecido através do uso de fotos, imagens de fundo e cores.
 
 #### Novo logotipo
 
-	![logo](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Logo.png)
+![logo](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Logo.png)
 
 #### Paleta de cores
 
-	![cores](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Paleta-Cores.png)
+![cores](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Paleta-Cores.png)
 
 #### Design inicial
 
-	![site](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/FonoaudiologiaForenseRSWebsite-2-lg.png)
+![site](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/FonoaudiologiaForenseRSWebsite-2-lg.png)
 
