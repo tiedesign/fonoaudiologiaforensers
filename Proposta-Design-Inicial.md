@@ -12,7 +12,7 @@ Orçamento
 ---------
 
 **Serviço**: Website responsivo + SEO  
-**Domínio**: http://www.fonoaudiologiaforensers.com.br/  
+**Domínio**: http://www.fonoaudiologiaforensers.com.br  
 **Requisitos**: Website com design clean, com pouco conteúdo/links, aparecendo em sites de busca como o Google.  
 **Referências citadas**:  
 - http://fonoaudiologiaforense-mg.com.br  
@@ -40,9 +40,9 @@ A proposta visa o link com o tipo de serviço oferecido através do uso de fotos
 
 #### Design inicial
 
-![site -fullwidth](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Proposta1.jpg)
+<img src="https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Proposta1.jpg" widht="100px" border="0"/>
 
-Clique no link abaixo para ver em tamanho maior.
+[Clique aqui para ver em tamanho maior](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Proposta1.jpg)
 
-https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Proposta1.jpg
+
 
