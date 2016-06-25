@@ -6,7 +6,7 @@ Cliente
 
 **Nome**: Fonoaudiologia Forense  
 **Contato**: Débora / Samantha  
-**Telefones**: (51) 91853608 / (51) 81196311
+**Telefones**: [conteúdo oculto]
 
 Orçamento
 ---------
@@ -31,6 +31,8 @@ A proposta visa o link com o tipo de serviço oferecido através do uso de fotos
 #### Novo logotipo
 
 ![logo](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Logo.png)
+
+> Sugestão de atualização do logotipo, em uma proposta __flat__ usando o nome da empresa.
 
 #### Paleta de cores
 
