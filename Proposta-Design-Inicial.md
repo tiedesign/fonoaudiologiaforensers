@@ -1,3 +1,5 @@
+![logo](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Logo-TieDesign.jpg)
+
 Proposta inicial de design
 ==========================
 
@@ -40,9 +42,12 @@ A proposta visa o link com o tipo de serviço oferecido através do uso de fotos
 
 #### Design inicial
 
-<img src="https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Proposta1.jpg" widht="100px" border="0"/>
+_Devido ao tamanho da imagem, pode ocorrer quebra e a imagem aparecer na próxima página._
 
-[Clique aqui para ver em tamanho maior](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Proposta1.jpg)
+[Clique para ver em tamanho maior](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Proposta1.jpg)
+
+![site](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Proposta1.jpg)
+
 
 
 
