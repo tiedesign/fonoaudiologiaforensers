@@ -38,5 +38,5 @@ A proposta visa o link com o tipo de serviço oferecido através do uso de fotos
 
 #### Design inicial
 
-![site](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/FonoaudiologiaForenseRSWebsite-2-lg.png)
+![site](https://raw.githubusercontent.com/tiedesign/fonoaudiologiaforensers/master/Proposta/Proposta1.jpg)
 
