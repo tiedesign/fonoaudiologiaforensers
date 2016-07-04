@@ -1,0 +1,11 @@
+body {
+	margin:0;
+}
+
+body>header,body>footer {
+	border-top:3px solid red;
+}
+
+nav ul {
+    list-style:none;
+}
