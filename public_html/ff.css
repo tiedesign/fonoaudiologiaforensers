@@ -1,11 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Mitr:200,300,400,500,600,700';
+
+.gray{
+	border-color: #313139 #444349 #E7EBEC #ffffff;
+	color: #DA491C;
+	background-color: #E16D49;
+}
+
 body {
 	margin:0;
+}
+
+* {
+	font-family:'Mitr',sans-serif;
+	font-weight:300;
+	font-size:100%;
 }
 
 body>header,body>footer {
 	border-top:3px solid red;
 }
 
+body>header {
+	background: url('images/sound-wave.jpg') 50% 50% repeat-x #444349;
+	height: 400px;
+	text-align: center;
+}
+
+body>header h1 {
+	color: #fff;
+	font-size: 3em;
+	font-weight: 600;
+	margin: 36px 0;
+}
+
+h2 {
+	margin:36px 0 0;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+}
+
+hr {
+	margin:12px auto 36px;
+	height: 2px;
+	border-width: 0px;
+	background-color: #DA491C;
+	width: 72px;
+}
+
+p.ct {
+	text-align: center;
+}
+
+#menu{
+	float: left;
+}
+
+#logo{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#call{
+	float: right
+}
+
 nav ul {
     list-style:none;
+}
+
+body>header>h1>.highlight {
+	background-color: #DA491C;
+	padding: 0px 18px;
+	font-weight:600;
+	border-radius: 4px;
+}
+
+section {
+	margin: 0px;
+	padding: 36px;
+}
+
+#processo {
+	background: #e6e6e6;
+}
+
+#servicos {
+	background: url('images/bg-orange.jpg') repeat;
+	color: #313139;
+}
+
+#servicos h2 {
+	color: #fff;
 }
