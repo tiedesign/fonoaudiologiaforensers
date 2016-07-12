@@ -10,10 +10,18 @@ body {
 	margin:0;
 }
 
+::selection {
+  background: #ffff66;
+}
+::-moz-selection {
+  background: #ffff66;
+}
+
 * {
 	font-family:'Mitr',sans-serif;
 	font-weight:300;
 	font-size:100%;
+	outline:none;
 }
 
 body>header,body>footer {
@@ -62,7 +70,6 @@ h2 {
 	font-size: 1.6em;
 	font-weight: 400;
 	text-align: center;
-	letter-spacing: 2px;
 }
 
 h3 {
@@ -84,7 +91,45 @@ p.ct {
 }
 
 #menu{
-	float: left;
+	position: absolute;
+	top: 32px;
+	left: 24px;
+	cursor: pointer;
+}
+
+.close {
+	display: none;
+}
+
+#more {
+	cursor: pointer;
+}
+
+nav {
+	position: absolute;
+	top: 72px;
+	left: 24px;
+}
+nav ul {
+	margin:  0px;
+	padding:  0px;
+}
+nav li {
+	background: #333;
+	margin: 10px 0;
+	box-shadow: 2px 2px 2px #000;
+}
+nav ul li a {
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.2em;
+	text-decoration: none;
+	display: block;
+	padding: 0 10px;
+}
+nav ul li a:hover {
+	background-color: #DA491C;
+	text-decoration: none;
 }
 
 #logo{
@@ -93,7 +138,9 @@ p.ct {
 }
 
 #call{
-	float: right
+	position: absolute;
+	top: 32px;
+	right: 24px;
 }
 
 nav ul {
@@ -110,6 +157,18 @@ body>header>h1>.highlight {
 section {
 	margin: 0px;
 	padding: 36px;
+}
+
+.edmond {
+	height: 245px;
+	padding-top: 32px;
+	background: #fff url('images/edmond-locard.jpg') no-repeat 90% 50%;
+}
+
+h6 {
+	margin: 0px auto;
+	color: #DA491C;
+	text-align: center;
 }
 
 #pre-processo {
@@ -180,10 +239,96 @@ section {
 	color: #fff;
 }
 
+#servicos .service {
+	height: 400px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#servicos .service hr {
+	width: 380px;
+	position: relative;
+	top: 0px;
+	z-index: 9999;
+}
+
+#servicos .left > img, #servicos .right > h3 {
+	float: left;
+}
+
+#servicos .left hr {
+	left: -60px;
+	float: left;
+}
+
+#servicos .right hr {
+	left: 60px;
+	float: right;
+}
+
+#servicos .right > img, #servicos .left > h3 {
+	float: right;
+}
+
+#servicos .left > img, #servicos .right > img {
+	border: 10px solid #fff;
+}
+
+#servicos .left > img {
+	float: left;
+	-ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+}
+
+#servicos .right > img {
+	float: right;
+	-ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+}
+
+#servicos .left > h3, #servicos .right > h3 {
+	margin: 40px 80px 0;
+}
+
+#servicos .service h3 {
+	color: #fff;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #313139;
+}
+
+#servicos .service p {
+	color: #fff;
+	text-shadow: 1px 1px 1px #313139;
+}
+
+#servicos .left p {
+	float: right;
+	text-align: right;
+	width: 500px;
+}
+
+#servicos .right p {
+	float: left;
+	text-align: left;
+	width: 500px;
+}
+
 #contato {
 	background: #444349;
 }
 
 #contato h2 {
 	color: #fff;
+}
+
+#top {
+	display: none;
+	position: fixed;
+	bottom: 92px;
+	right: 32px;
+	cursor: pointer;
+	-webkit-transition: opacity 2s;
+    transition: opacity 2s;
 }

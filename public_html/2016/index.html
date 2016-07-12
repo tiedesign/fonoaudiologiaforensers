@@ -10,36 +10,36 @@
 		<meta name="googlebot" content="noarchive" />
 		<meta name="google-site-verification" content="..." />
 		<link rel="stylesheet" href="ff.css">
+		<link rel="stylesheet" href="animate.css">
 	</head>
 
 	<body>
+		<img alt="Menu" src="images/menu.png" id="menu" onclick="toogleMenu()" class="wow fadeIn"/>
+		<nav id="menuitems" class="nav close">
+			<ul>
+				<li><a href="javascript:scrollPage(0)">HOME</a></li>
+				<li><a href="javascript:scrollPage(450)">SOBRE</a></li>
+				<li><a href="javascript:scrollPage(1900)">SERVIÇOS</a></li>
+				<li><a href="javascript:scrollPage(4600)">PROFISSIONAIS</a></li>
+				<li><a href="javascript:scrollPage(5800)">CONTATO</a></li>
+			</ul>
+		</nav>
+		<a href="tel:05181152188" id="call"><img alt="Fone" src="images/telefone.png" class="wow flash"/></a>
+
+		<a name="home"></a>
 		<header>
-			<aside id="menu">
-				<img alt="Menu" src="images/menu.png"/>
-			</aside>
-			<aside id="call">
-				<img alt="Fone" src="images/telefone.png"/>
-			</aside>
 			<article id="logo">
-				<img alt="Logo" src="images/logo.png"/>
+				<img alt="Logo" src="images/logo.png" class="wow bounceInDown"/>
 			</article>
 			<h1>
 				<span class="highlight">PERÍCIA</span> DE ÁUDIO E VÍDEO
 			</h1>
 			<p>
-				<img alt="Abaixo" src="images/abaixo.png"/>
+				<img id="more" alt="Abaixo" src="images/abaixo.png" onclick="scrollPage(450)"/>
 			</p>
-			<!--
-			<nav>
-				<ul>
-					<li>A</li>
-					<li>B</li>
-					<li>C</li>
-				</ul>
-			</nav>
-			-->
 		</header>
 		
+		<a name="sobre"></a>
 		<section id="sobre">
 			<article>
 				<header>
@@ -47,9 +47,20 @@
 					<hr/>
 				</header>
 				<p class="ct">
-					Pioneira no Rio Grande do Sul, realiza perícias em arquivos digitais de áudio e vídeo auxiliando
+					Desde 2014, pioneira no Rio Grande do Sul, realiza perícias em arquivos digitais de audio e vídeo, 
 					<br/>
-					a Justiça na elucidação de crimes onde a comunicação humana tornou-se seu principal vestígio.
+					transformando os vestígios relacionados a comunicação humana em evidências.
+				</p>
+			</article>
+			<article class="edmond">
+				<p class="ct">
+					<em>
+						“Quaisquer que sejam os passos, <br/>quaisquer objetos tocados por eles,
+						<br/>
+						o que quer que eles deixem, <br/>mesmo que inconscientemente, <br/>servirá de prova contra eles.”
+					</em>
+					<br/>
+					<h6>&mdash; Edmond Locard</h6>
 				</p>
 			</article>
 		</section>
@@ -58,91 +69,113 @@
 
 		<section id="processo">
 			<article>
-				<img id="seta-1" alt="Seta 1" src="images/seta-1.png"/>
+				<img id="seta-1" alt="Seta 1" src="images/seta-1.png" class="wow fadeInLeft" data-wow-delay="0.2s"/>
 				<aside id="crime">
-					<img alt="Crime" src="images/crime.jpg" class="circle"/>
+					<img alt="Crime" src="images/crime.jpg" class="circle wow rotateIn" data-wow-delay="0s"/>
 				</aside>
 				<aside id="evidence">
-					<img alt="Evidência" src="images/evidencia.jpg" class="circle"/>
+					<img alt="Evidência" src="images/evidencia.jpg" class="circle wow rotateIn" data-wow-delay="0.4s"/>
 				</aside>
-				<img id="seta-2" alt="Seta 2" src="images/seta-2.png"/>
+				<img id="seta-2" alt="Seta 2" src="images/seta-2.png" class="wow fadeInRight" data-wow-delay="0.6s"/>
 				<aside id="docs">
-					<img alt="Arquivos digitais" src="images/arquivos-digitais.jpg" class="circle"/>
+					<img alt="Arquivos digitais" src="images/arquivos-digitais.jpg" class="circle wow rotateIn" data-wow-delay="0.8s"/>
 				</aside>
-				<img id="seta-3" alt="Seta 3" src="images/seta-3.png"/>
+				<img id="seta-3" alt="Seta 3" src="images/seta-3.png" class="wow fadeInLeft" data-wow-delay="1s"/>
 			</article>
 		</section>
 
+		<a name="servicos"></a>
 		<section id="servicos">
 			<article>
 				<header>
 					<h2>SERVIÇOS</h2>
 					<hr/>
 				</header>
-				<p>
-					Atendemos principalmente profissionais da área do Direito como advogados e juízes,
-					realizando Perícia Criminal e Perícia Cível sobre provas em arquivos digitais de áudio e vídeo.
-				</p>
-				<p>
-					Prestamos também consultoria em fononoaudiologia forense,
-					que é nossa especialidade, nosso nome!
+				<p class="ct">
+					A FONOAUDIOLOGIA FORENSE RS realiza perícias, assistência técnica e consultoria em arquivos de áudio e vídeo,
+					<br/>
+					buscando a veracidade das alegações das partes envolvidas, é o rigor da ciência a favor da justiça.
 				</p>
 			</article>
-			<article>
-				<aside>
-					<img alt="Identificação de falantes" src="images/identificacao-falantes.png"/>
-				</aside>
+			<br/>
+			<article class="service left">
+				<img alt="Identificação de falantes" src="images/identificacao-falantes.jpg" class="wow zoomIn"/>
+				<h3>Identificação de falantes</h3>
+				<hr/>
 				<p>
-					Lorem Ipsum.
+					Através da análise de voz, fala e linguagem realiza a identificação de falantes em mídias obtidas através de interceptação telefônica, vídeos, gravações ambientais.
 				</p>
 			</article>
-			<article>
-				<aside>
-					<img alt="Transição de conteúdo" src="images/transicao-conteudo.png"/>
-				</aside>
+			<article class="service right">
+				<img alt="Transcrição de conteúdo" src="images/transcricao-conteudo.jpg" class="wow zoomIn"/>
+				<h3>Transcrição de conteúdo</h3>
+				<hr/>
 				<p>
-					Lorem Ipsum.
+					Transcrição de diálogos a partir de conhecimentos técnicos fonoaudiológicos, tornando-os audíveis e buscando a inteligibilidade de palavras frequentemente sublimadas ao ouvinte comum.
 				</p>
 			</article>
-			<article>
-				<aside>
-					<img alt="Análise de conteúdo" src="images/analise-falantes.png"/>
-				</aside>
+			<article class="service left">
+				<img alt="Análise de conteúdo" src="images/analise-conteudo.jpg" class="wow zoomIn"/>
+				<h3>Análise de conteúdo</h3>
+				<hr/>
 				<p>
-					Lorem Ipsum.
+					Relato descritivo de diálogos e/ou fatos obtidos através de áudio ou vídeo além de contextualizá-los através da linguagem.
 				</p>
 			</article>
-			<article>
-				<aside>
-					<img alt="Biometria facial" src="images/biometria-facial.png"/>
-				</aside>
+			<article class="service right">
+				<img alt="Biometria facial" src="images/biometria-facial.jpg" class="wow zoomIn"/>
+				<h3>Biometria facial</h3>
+				<hr/>
 				<p>
-					Lorem Ipsum.
+					Identificação de um indivíduo através de parâmetros de aspectos morfológicos e pontos fixos da face capazes de realizar um mapeamento das estruturas crânio-faciais.
+				</p>
+				<p>
+					Embora o foco esteja na identificação facial, o analista pode obter outros elementos importantes para o reconhecimento na estrutura corpórea dos indivíduos como altura, marcha, postura, expressão corporal, cicatrizes, tatuagens e/ou quaisquer outros sinais observáveis.
 				</p>
 			</article>
-			<article>
-				<aside>
-					<img alt="Verificação de manipulação de arquivos" src="images/verificacao-arquivos.png"/>
-				</aside>
+			<br/>
+			<br/>
+			<br/>
+			<article class="service left">
+				<img alt="Verificação de manipulação de arquivos" src="images/verificacao-arquivos.jpg" class="wow zoomIn"/>
+				<h3>Verificação de manipulação<br/>de arquivos</h3>
+				<hr/>
 				<p>
-					Lorem Ipsum.
+					Verificar a autenticidade do material.
+				</p>
+			</article>
+			<article class="service right">
+				<img alt="Exame grafotécnico" src="images/exame-grafotecnico.jpg" class="wow zoomIn"/>
+				<h3>Exame grafotécnico</h3>
+				<hr/>
+				<p>
+					Análise da grafia, com a finalidade da verificar a autenticidade ou a determinação da autoria de um determinado grafismo (assinaturas, documentos manuscritos).
 				</p>
 			</article>
 		</section>
 
-		<section id="equipe">
+		<a name="profissionais"></a>
+		<section id="profissionais">
 			<article>
 				<header>
-					<h2>EQUIPE</h2>
+					<h2>PROFISSIONAIS</h2>
 					<hr/>
 				</header>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+				<!--
+				<p>.</p>
+			-->
 			</article>
+			<!--
 			<article>
 				<header>
 					<h3>Débora Von Saltiél</h3>
 					<p>
-						CRM 2009
+						Fonoaudióloga
+					</p>
+					<p>
+						CRFa 7-8841
+						Fonoaudióloga elencada no Cadastro de Especialistas do Tribunal de Justiça do Estado do Rio Grande do Sul
+						Certificada pela ACADEFFOR em Fonoaudiologia Forense
 						<a href="mailto:debora@fonoaudiologiaforensers.com.br">
 							E-mail
 						</a>
@@ -154,31 +187,45 @@
 				<header>
 					<h3>Samantha Moraes</h3>
 					<p>
-						CRM 2009
+						Fonoaudióloga
+					</p>
+					<p>
+						CRFa 7-8799
+						CNP: 017923
+						Certificada pela ACADEFFOR em Fonoaudiologia Forense
+						Especializanda em Pericia Criminal e Ciências Forense pelo IPOG/RS
 						<a href="mailto:samantha@fonoaudiologiaforensers.com.br">
 							E-mail
 						</a>
 					</p>
 				</header>
 				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-			</article>		
+			</article>
+			-->
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 		</section>
 
+		<a name="contato"></a>
 		<section id="contato">
 			<article>
 				<header>
 					<h2>CONTATO</h2>
 					<hr/>
-					<p>
-						(51) 91853608
-						(51) 81196311
-						contato@fonoaudiologiaforensers.com.br
-					</p>
 				</header>
+				<!--
+				<p>
+					(51) 91853608
+					(51) 81196311
+					contato@fonoaudiologiaforensers.com.br
+				</p>
+				-->
 			</article>
+			<!--
 			<article>
 				<img alt="Facebook" src="images/facebook.png"/>
 			</article>
+			-->
+			<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 		</section>
 
 		<footer>
@@ -190,10 +237,12 @@
 			</p>
 		</footer>
 
-		<div id="top">
+		<div id="top" onclick="scrollPage(0)">
 			<img alt="Topo" src="images/topo.png"/>
 		</div>
 
+		<script src="wow.min.js"></script>
+		<script src="ff.js"></script>
 	</body>
 
 </html>
