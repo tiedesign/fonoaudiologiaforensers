@@ -26,7 +26,12 @@ function os() {
 	}
 }
 
-function scrollPage(Y)
+function scrollPage(Y){
+	s(Y)
+	toogleMenu();
+}
+
+function s(Y)
 {
   targetScrollY = Y;
   screen_Y = Math.floor(window.scrollY);
@@ -46,6 +51,4 @@ function scrollPage(Y)
 		window.scrollTo(0, screen_Y);
 	}, 1);
   } 
-
-	toogleMenu();
 }
