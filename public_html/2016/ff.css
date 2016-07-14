@@ -8,6 +8,7 @@
 
 body {
 	margin:0;
+	overflow-x: hidden;
 }
 
 ::selection {
@@ -22,6 +23,15 @@ body {
 	font-weight:300;
 	font-size:100%;
 	outline:none;
+}
+
+a, a:visited {
+	color: #DA491C;
+	text-decoration: none;
+}
+a:hover {
+	color: #DA491C;
+	text-decoration: none;
 }
 
 body>header,body>footer {
@@ -194,6 +204,13 @@ h6 {
 	margin: 0px auto;
 }
 
+#crime {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 250px;
+}
+
 #seta-1{
 	position: relative;
 	left: 300px;
@@ -240,7 +257,7 @@ h6 {
 }
 
 #servicos .service {
-	height: 400px;
+	min-height: 400px;
 	width: 1000px;
 	margin: 0 auto;
 }
@@ -252,9 +269,16 @@ h6 {
 	z-index: 9999;
 }
 
+/*
 #servicos .left > img, #servicos .right > h3 {
 	float: left;
 }
+
+
+#servicos .right > img, #servicos .left > h3 {
+	float: right;
+}
+*/
 
 #servicos .left hr {
 	left: -60px;
@@ -266,11 +290,7 @@ h6 {
 	float: right;
 }
 
-#servicos .right > img, #servicos .left > h3 {
-	float: right;
-}
-
-#servicos .left > img, #servicos .right > img {
+.photo {
 	border: 10px solid #fff;
 }
 
@@ -315,12 +335,104 @@ h6 {
 	width: 500px;
 }
 
+#profissionais{
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	background: transparent url('images/separator.jpg') 50% 100% no-repeat;
+}
+
+#profissionais h3, #profissionais h4{
+	text-align: left;
+	line-height: 1.2em;
+	margin: 0px;
+	padding: 0px;
+}
+
+#profissionais h3{
+	font-size: 1.4em;
+}
+
+#profissionais h4 {
+	color: #666;
+	margin-bottom: 32px;
+}
+
+.profissional p {
+	font-size: 0.9em;
+	min-height: 70px;
+}
+
+.profissional a {
+	font-size: 1.2em;
+}
+
+.logo{
+	float: left;
+	padding: 6px 12px 0 0;
+}
+
 #contato {
+	color: #fff;
 	background: #444349;
+}
+
+#contato article {
+	margin: 0 auto;
+	width: 1000px;
 }
 
 #contato h2 {
 	color: #fff;
+}
+
+#contato p {
+	margin: 36px 0;
+}
+
+#contato a {	
+}
+
+#contato h3, #contato h4 {
+	display: inline;
+	margin: 6px 0;
+}
+
+#contato h3 {
+	color: #DA491C;	
+	font-size: 2em;
+	line-height: 2em;
+}
+
+#contato h4 {
+	color: #fff;
+	font-size: 1.5em;
+	line-height: 3em;
+}
+
+.cols-2 {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 6em;
+	-moz-column-gap: 6em;
+	column-gap: 6em;
+}
+
+.shadow {
+	text-shadow: 2px 2px 1px #313139;	
+}
+
+button {
+	font-size: 1.9em;
+	font-weight: 400;
+	color: #fff;
+	background: #DA491C;
+	padding: 4px 24px;
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #E9693A;
+	border-width: 0 0 4px 0;
 }
 
 #top {
@@ -331,4 +443,127 @@ h6 {
 	cursor: pointer;
 	-webkit-transition: opacity 2s;
     transition: opacity 2s;
+}
+
+.resp {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	color: cyan;
+	font-weight: 400;
+	display: none;
+}
+
+.resp5 {
+	display: block;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.resp4 {
+		display: block;
+	}
+	#servicos .service {
+		width: 920px; /* Acertar medida */
+	}
+	.photo {
+		width: 400px;
+	}
+	#profissionais {
+		width: 920px; /* Acertar medida */
+	}
+	#contato article {
+		width: 992px;
+	}
+	.edmond {
+		background-position: 150% 50%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.resp3 {
+		display: block;
+	}
+	body > header h1 {
+		font-size: 2.2em;
+	}
+	#servicos .service {
+		width: 680px; /* Acertar medida */
+		min-height: 290px;
+	}
+	#profissionais {
+		width: 680px; /* Acertar medida */
+	}
+	#contato article {
+		width: 680px;
+	}
+	#contato .logo {
+		width: 36px;
+	}
+	#contato h3 {
+		font-size: 1.5em;
+		line-height: 1.9em;
+	}
+	#contato h4 {
+		font-size: 1.2em;
+		line-height: 2.4em;
+	}
+	.edmond {
+		background-position: 150% 50%;
+	}
+	#processo {
+		height: 600px;
+	}
+	#processo article {
+		width: 992px;
+	}
+	#processo .circle {
+		width: 200px;
+	}
+	#crime {
+		left: 50px;
+	}
+	#docs {
+		left: 150px;
+	}
+	#seta-1 {
+		width: 200px;
+	}
+	#seta-2 {
+		width: 150px;
+	}
+	#seta-3 {
+		width: 100px;
+		height: 128px;
+		left: 380px;
+	}
+	.photo {
+		width: 300px;
+	}
+	#servicos .cols-2 {
+		-webkit-column-gap: 2em;
+		-moz-column-gap: 2em;
+		column-gap: 2em;
+	}
+	#servicos hr {
+		display: none;
+	}
+	#biometria-facial{
+		margin-bottom: 180px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.resp2 {
+		display: block;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	.resp1 {
+		display: block;
+	}
 }
