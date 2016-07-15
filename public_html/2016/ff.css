@@ -181,6 +181,14 @@ h6 {
 	text-align: center;
 }
 
+.wrap {
+	display: block;
+}
+
+.unwrap {
+	display: none;
+}
+
 #pre-processo {
 	background: #e6e6e6;
 	height: 80px;
@@ -294,14 +302,14 @@ h6 {
 	border: 10px solid #fff;
 }
 
-#servicos .left > img {
+#servicos .left aside img {
 	float: left;
 	-ms-transform: rotate(-3deg); /* IE 9 */
     -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
     transform: rotate(-3deg);
 }
 
-#servicos .right > img {
+#servicos .right aside img {
 	float: right;
 	-ms-transform: rotate(3deg); /* IE 9 */
     -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
@@ -325,14 +333,12 @@ h6 {
 
 #servicos .left p {
 	float: right;
-	text-align: right;
-	width: 500px;
+	text-align: left;
 }
 
 #servicos .right p {
 	float: left;
-	text-align: left;
-	width: 500px;
+	text-align: right;
 }
 
 #profissionais{
@@ -363,7 +369,7 @@ h6 {
 	min-height: 70px;
 }
 
-.profissional a {
+#profissionais a {
 	font-size: 1.2em;
 }
 
@@ -398,16 +404,20 @@ h6 {
 	margin: 6px 0;
 }
 
-#contato h3 {
+#contato .email {
 	color: #DA491C;	
-	font-size: 2em;
-	line-height: 2em;
+	font-size: 1.4em;
+	line-height: 2.8em;
 }
 
-#contato h4 {
+#contato .telefone {
 	color: #fff;
-	font-size: 1.5em;
-	line-height: 3em;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+
+.service h3 {
+	margin: 0px;
 }
 
 .cols-2 {
@@ -417,6 +427,12 @@ h6 {
 	-webkit-column-gap: 6em;
 	-moz-column-gap: 6em;
 	column-gap: 6em;
+}
+
+.cols-2 aside {
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
 }
 
 .shadow {
@@ -463,17 +479,34 @@ button {
 	.resp4 {
 		display: block;
 	}
+	.wrap {
+		display: none;
+	}
+	.unwrap {
+		display: block;
+	}
+	body > header h1 {
+		font-size: 2.2em;
+	}
 	#servicos .service {
-		width: 920px; /* Acertar medida */
+		width: 700px; /* Acertar medida */
 	}
 	.photo {
-		width: 400px;
+		width: 350px;
 	}
 	#profissionais {
-		width: 920px; /* Acertar medida */
+		width: 700px; /* Acertar medida */
 	}
 	#contato article {
-		width: 992px;
+		width: 700px;
+	}
+	#contato .email {
+		font-size: 1.4em;
+		line-height: 2.8em;
+	}
+	#contato .telefone {
+		font-size: 1.4em;
+		line-height: 1.5em;
 	}
 	.edmond {
 		background-position: 150% 50%;
@@ -485,66 +518,98 @@ button {
 	.resp3 {
 		display: block;
 	}
+	.unwrap {
+		display: block;
+	}
 	body > header h1 {
-		font-size: 2.2em;
+		font-size: 1.8em;
 	}
 	#servicos .service {
-		width: 680px; /* Acertar medida */
+		width: 350px; /* Acertar medida */
 		min-height: 290px;
 	}
+	#servicos .left aside img {
+		float: none;
+	}
 	#profissionais {
-		width: 680px; /* Acertar medida */
+		width: 350px; /* Acertar medida */
+		min-height: 1050px;
+	}
+	#profissionais a {
+		font-size: 1em;
 	}
 	#contato article {
-		width: 680px;
+		width: 400px;
 	}
 	#contato .logo {
 		width: 36px;
 	}
-	#contato h3 {
-		font-size: 1.5em;
-		line-height: 1.9em;
+	#contato .telefone {
+		font-size: 1em;
+		line-height: 1.6em;
 	}
-	#contato h4 {
-		font-size: 1.2em;
-		line-height: 2.4em;
+	#contato .email {
+		font-size: 1em;
+		line-height: 1.6em;
+	}
+	.logo {
+		float: none;
+		padding: 6px 0 0 0;
 	}
 	.edmond {
 		background-position: 150% 50%;
 	}
 	#processo {
-		height: 600px;
+		height: 350px;
 	}
 	#processo article {
-		width: 992px;
+		width: 450px;
 	}
 	#processo .circle {
-		width: 200px;
+		width: 150px;
 	}
 	#crime {
-		left: 50px;
+		left: 20px;
+	}
+	#evidence {
+		left: 310px;
 	}
 	#docs {
-		left: 150px;
+		left: 100px;
 	}
 	#seta-1 {
-		width: 200px;
+		width: 100px;
+		top: 100px;
+		left: 200px;
 	}
 	#seta-2 {
-		width: 150px;
+		width: 100px;
+		left: 200px;
 	}
 	#seta-3 {
 		width: 100px;
-		height: 128px;
-		left: 380px;
+		height: 100px;
+		left: 270px;
 	}
 	.photo {
 		width: 300px;
 	}
 	#servicos .cols-2 {
-		-webkit-column-gap: 2em;
-		-moz-column-gap: 2em;
-		column-gap: 2em;
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+		-webkit-column-gap: 0.5em;
+		-moz-column-gap: 0.5em;
+		column-gap: 0.5em;
+	}
+	#top img {
+		width: 36px;
+	}
+	.cols-2 aside {
+		-webkit-column-break-inside: auto;
+		page-break-inside: auto;
+		break-inside: auto;
+		text-align: center;
 	}
 	#servicos hr {
 		display: none;
