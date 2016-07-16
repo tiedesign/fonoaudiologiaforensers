@@ -8,7 +8,7 @@
 
 body {
 	margin:0;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 ::selection {
@@ -42,7 +42,7 @@ body>header {
 	background: url('images/sound-wave.jpg') 50% 80% repeat-x #444349;
 	height: 400px;
 	text-align: center;
-	padding: 16px 100px;
+	padding: 16px 10px;
 	margin: 0px;
 }
 
@@ -129,7 +129,7 @@ nav li {
 	margin: 10px 0;
 	box-shadow: 2px 2px 2px #000;
 }
-nav ul li a {
+nav ul li a, nav ul li a:visited {
 	color: #fff;
 	font-weight: 400;
 	font-size: 1.2em;
@@ -138,6 +138,7 @@ nav ul li a {
 	padding: 0 10px;
 }
 nav ul li a:hover {
+	color: #fff;
 	background-color: #DA491C;
 	text-decoration: none;
 }
@@ -166,13 +167,15 @@ body>header>h1>.highlight {
 
 section {
 	margin: 0px;
-	padding: 36px;
+	padding: 1px 0 0;
 }
 
 .edmond {
 	height: 245px;
 	padding-top: 32px;
-	background: #fff url('images/edmond-locard.jpg') no-repeat 90% 50%;
+	background-image: url('images/edmond-locard.jpg');
+	background-repeat: no-repeat;
+	background-position: 90% 50%;
 }
 
 h6 {
@@ -189,19 +192,13 @@ h6 {
 	display: none;
 }
 
-#pre-processo {
-	background: #e6e6e6;
-	height: 80px;
-	border-top: 1px solid #cbcbcb;
-}
-
 #processo {
 	background: #e6e6e6 url('images/palacio-justica.jpg') no-repeat;
 	-webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
 	background-size: cover;
-	padding: 0px;
+	padding: 36px 0 0;
 	height: 800px;
 }
 
@@ -242,6 +239,7 @@ h6 {
 	position: relative;
 	left: 100px;
 	top: -200px;	
+	width: 250px;
 }
 
 #seta-3{
@@ -343,7 +341,7 @@ h6 {
 
 #profissionais{
 	width: 1000px;
-	height: 700px;
+	min-height: 700px;
 	margin: 0 auto;
 	background: transparent url('images/separator.jpg') 50% 100% no-repeat;
 }
@@ -361,19 +359,29 @@ h6 {
 
 #profissionais h4 {
 	color: #666;
-	margin-bottom: 32px;
+	margin-bottom: 24px;
 }
 
-.profissional p {
+#profissionais td {
 	font-size: 0.9em;
 	min-height: 70px;
+	vertical-align: middle;
 }
 
 #profissionais a {
 	font-size: 1.2em;
 }
 
-.logo{
+#profissionais aside {
+	margin-bottom: 24px;	
+}
+
+.logo {
+	vertical-align: middle;
+	padding: 0px 12px 0 0;
+}
+
+.icone {
 	float: left;
 	padding: 6px 12px 0 0;
 }
@@ -381,6 +389,7 @@ h6 {
 #contato {
 	color: #fff;
 	background: #444349;
+	min-height: 520px;
 }
 
 #contato article {
@@ -429,6 +438,12 @@ h6 {
 	column-gap: 6em;
 }
 
+#servicos .cols-2 {
+	-webkit-column-gap: 6em;
+	-moz-column-gap: 6em;
+	column-gap: 6em;
+}
+
 .cols-2 aside {
 	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
@@ -437,6 +452,20 @@ h6 {
 
 .shadow {
 	text-shadow: 2px 2px 1px #313139;	
+}
+
+table {
+	width: 100%;
+}
+
+tfoot td {
+	padding: 24px 0 36px 0;
+}
+
+tfoot td div {
+	float:left;
+	width:50%;
+	text-align:center;
 }
 
 button {
@@ -488,14 +517,55 @@ button {
 	body > header h1 {
 		font-size: 2.2em;
 	}
+	#processo {
+		height: 600px;
+	}
+	#processo article {
+		width: 700px;
+	}
+	#processo .circle {
+		width: 200px;
+	}
+	#crime {
+		left: 20px;
+	}
+	#evidence {
+		left: 420px;
+	}
+	#docs {
+		left: 100px;
+	}
+	#seta-1 {
+		width: 150px;
+		top: 120px;
+		left: 270px;
+	}
+	#seta-2 {
+		width: 150px;
+		left: 250px;
+	}
+	#seta-3 {
+		width: 100px;
+		height: 120px;
+		left: 330px;
+	}
 	#servicos .service {
-		width: 700px; /* Acertar medida */
+		width: 682px;
 	}
 	.photo {
 		width: 350px;
 	}
 	#profissionais {
-		width: 700px; /* Acertar medida */
+		width: 660px;
+		background: none;
+	}
+	#profissionais .cols-2 {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+		-webkit-column-gap: 0.5em;
+		-moz-column-gap: 0.5em;
+		column-gap: 0.5em;
 	}
 	#contato article {
 		width: 700px;
@@ -509,7 +579,7 @@ button {
 		line-height: 1.5em;
 	}
 	.edmond {
-		background-position: 150% 50%;
+		background-position: 100% 50%;
 	}
 }
 
@@ -521,8 +591,18 @@ button {
 	.unwrap {
 		display: block;
 	}
+	body>header {
+		height: 300px;
+	}
 	body > header h1 {
 		font-size: 1.8em;
+		margin: 48px 0;
+	}
+	h2 {
+		font-size: 1.4em;
+	}
+	#logo img{
+		width: 200px;
 	}
 	#servicos .service {
 		width: 350px; /* Acertar medida */
@@ -569,10 +649,11 @@ button {
 		width: 150px;
 	}
 	#crime {
-		left: 20px;
+		left: 10px;
+		top: 20px;
 	}
 	#evidence {
-		left: 310px;
+		left: 280px;
 	}
 	#docs {
 		left: 100px;
@@ -580,11 +661,11 @@ button {
 	#seta-1 {
 		width: 100px;
 		top: 100px;
-		left: 200px;
+		left: 190px;
 	}
 	#seta-2 {
 		width: 100px;
-		left: 200px;
+		left: 170px;
 	}
 	#seta-3 {
 		width: 100px;
