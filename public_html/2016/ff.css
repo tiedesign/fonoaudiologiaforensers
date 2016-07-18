@@ -8,7 +8,7 @@
 
 body {
 	margin:0;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 
 ::selection {
@@ -111,7 +111,7 @@ p.ct {
 	display: none;
 }
 
-#more {
+.hand {
 	cursor: pointer;
 }
 
@@ -167,7 +167,7 @@ body>header>h1>.highlight {
 
 section {
 	margin: 0px;
-	padding: 1px 0 0;
+	padding: 1px 0;
 }
 
 .edmond {
@@ -180,8 +180,15 @@ section {
 
 h6 {
 	margin: 0px auto;
-	color: #DA491C;
+	color: #DA491C;	
 	text-align: center;
+}
+
+.quote {
+	line-height: 0px;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #DA491C;	
 }
 
 .wrap {
@@ -264,7 +271,7 @@ h6 {
 
 #servicos .service {
 	min-height: 400px;
-	width: 1000px;
+	width: 1080px;
 	margin: 0 auto;
 }
 
@@ -273,6 +280,10 @@ h6 {
 	position: relative;
 	top: 0px;
 	z-index: 9999;
+}
+
+#servicos .service aside{
+	margin-bottom: 64px;
 }
 
 /*
@@ -298,20 +309,31 @@ h6 {
 
 .photo {
 	border: 10px solid #fff;
+	margin: 12px;
 }
 
-#servicos .left aside img {
+#servicos div {
+	width: 50%;
+}
+
+.service:nth-child(odd) > div {
 	float: left;
-	-ms-transform: rotate(-3deg); /* IE 9 */
-    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
-    transform: rotate(-3deg);
 }
 
-#servicos .right aside img {
+.service:nth-child(odd) > div > img {
+	-ms-transform: rotate(-3deg); /* IE 9 */
+	-webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+	transform: rotate(-3deg);
+}
+
+.service:nth-child(even) > div {
 	float: right;
+}
+
+.service:nth-child(even) > div > img {
 	-ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
+	-webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+	transform: rotate(3deg);
 }
 
 #servicos .left > h3, #servicos .right > h3 {
@@ -364,7 +386,7 @@ h6 {
 
 #profissionais td {
 	font-size: 0.9em;
-	min-height: 70px;
+	height: 70px;
 	vertical-align: middle;
 }
 
@@ -408,9 +430,8 @@ h6 {
 #contato a {	
 }
 
-#contato h3, #contato h4 {
-	display: inline;
-	margin: 6px 0;
+#contato .td-icone {
+	width: 60px;
 }
 
 #contato .email {
@@ -442,6 +463,12 @@ h6 {
 	-webkit-column-gap: 6em;
 	-moz-column-gap: 6em;
 	column-gap: 6em;
+}
+
+#contato .cols-2 {
+	-webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	column-gap: 1em;
 }
 
 .cols-2 aside {
@@ -515,7 +542,7 @@ button {
 		display: block;
 	}
 	body > header h1 {
-		font-size: 2.2em;
+		font-size: 2.5em;
 	}
 	#processo {
 		height: 600px;
@@ -550,7 +577,7 @@ button {
 		left: 330px;
 	}
 	#servicos .service {
-		width: 682px;
+		width: 470px;
 	}
 	.photo {
 		width: 350px;
@@ -569,6 +596,12 @@ button {
 	}
 	#contato article {
 		width: 700px;
+	}
+	#contato .icone {
+		width: 36px;
+	}
+	#contato .td-icone {
+		width: 36px;
 	}
 	#contato .email {
 		font-size: 1.4em;
@@ -604,12 +637,9 @@ button {
 	#logo img{
 		width: 200px;
 	}
-	#servicos .service {
-		width: 350px; /* Acertar medida */
-		min-height: 290px;
-	}
-	#servicos .left aside img {
-		float: none;
+	#servicos div {
+		width: 100%;
+		text-align:center;
 	}
 	#profissionais {
 		width: 350px; /* Acertar medida */
@@ -651,12 +681,15 @@ button {
 	#crime {
 		left: 10px;
 		top: 20px;
+		width: 150px;
 	}
 	#evidence {
 		left: 280px;
+		width: 150px;
 	}
 	#docs {
 		left: 100px;
+		width: 150px;
 	}
 	#seta-1 {
 		width: 100px;
@@ -675,28 +708,12 @@ button {
 	.photo {
 		width: 300px;
 	}
-	#servicos .cols-2 {
-		-webkit-column-count: 1;
-		-moz-column-count: 1;
-		column-count: 1;
-		-webkit-column-gap: 0.5em;
-		-moz-column-gap: 0.5em;
-		column-gap: 0.5em;
+	#top {
+		right: 6px;
+		bottom: 72px;
 	}
 	#top img {
-		width: 36px;
-	}
-	.cols-2 aside {
-		-webkit-column-break-inside: auto;
-		page-break-inside: auto;
-		break-inside: auto;
-		text-align: center;
-	}
-	#servicos hr {
-		display: none;
-	}
-	#biometria-facial{
-		margin-bottom: 180px;
+		width: 56px;
 	}
 }
 
@@ -705,11 +722,94 @@ button {
 	.resp2 {
 		display: block;
 	}
+	body > header h1 {
+		font-size: 1.6em;
+		margin: 36px 0px 24px 0;
+	}
+	#processo {
+		height: 300px;
+	}
+	#processo article {
+		width: 300px;
+	}
+	#processo .circle {
+		width: 100px;
+	}
+	#crime {
+		left: 10px;
+		top: 40px;
+		width: 100px;
+	}
+	#evidence {
+		top: 0px;
+		left: 180px;
+		width: 100px;
+	}
+	#docs {
+		left: 50px;
+		width: 100px;
+		top: -70px;
+	}
+	#seta-1 {
+		width: 70px;
+		top: 120px;
+		left: 130px;
+	}
+	#seta-2 {
+		width: 70px;
+		left: 100px;
+		top: -80px;
+	}
+	#seta-3 {
+		top: -130px;
+		width: 40px;
+		height: 60px;
+		left: 170px;
+	}
+	.photo {
+		width: 250px;
+	}
+	#servicos {
+		min-height: 3200px;
+	}
+	#servicos .service {
+    	width: 280px;
+	}
+	#servicos hr {
+		display: none;
+	}
+	#profissionais {
+	    width: 280px;
+	    background: none;
+	}
+	#contato article {
+	    width: 280px;
+	}
+	#contato .cols-2 {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
 }
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
 	.resp1 {
 		display: block;
+	}
+	body > header h1 {
+		font-size: 1.6em;
+		margin: 56px 0px 24px 0;
+		padding-top: 36px;
+	}
+	#logo{
+		float: right;
+	}
+	#logo img{
+		width: 150px;
+		margin: 6px 0;
+	}
+	#call{
+		display: none;
 	}
 }

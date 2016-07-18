@@ -10,29 +10,59 @@
 		<meta name="robots" content="noarchive" />
 		<meta name="googlebot" content="noarchive" />
 		<meta name="google-site-verification" content="..." />
-		<link rel="stylesheet" href="ff.css">
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png" />
+		<link rel="icon" type="image/png" href="images/favicon/favicon-196x196.png" sizes="196x196" />
+		<link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16" />
+		<link rel="icon" type="image/png" href="images/favicon/favicon-128.png" sizes="128x128" />
+		<meta name="application-name" content="&nbsp;"/>
+		<meta name="msapplication-TileColor" content="#FFFFFF" />
+		<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+		<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+		<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+		<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+		<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+		<link rel="stylesheet" href="ff.css?v1">
 		<link rel="stylesheet" href="animate.css">
 	</head>
 
 	<body>
-		<div class="resp resp1">1</div>
+<!-- 		<div class="resp resp1">1</div>
 		<div class="resp resp2">&nbsp;&nbsp;2</div>
 		<div class="resp resp3">&nbsp;&nbsp;&nbsp;&nbsp;3</div>
 		<div class="resp resp4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4</div>
 		<div class="resp resp5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</div>
-		<div class="resp resp6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</div>
+		<div class="resp resp6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</div> -->
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.7&appId=1113383248756587";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<img alt="Menu" src="images/menu.png" id="menu" onclick="toogleMenu()" class="wow fadeIn"/>
 		<nav id="menuitems" class="nav close">
 			<ul>
-				<li><a href="javascript:scrollPage(0)">HOME</a></li>
-				<li><a href="javascript:scrollPage(450)">SOBRE</a></li>
-				<li><a href="javascript:scrollPage(1750)">SERVIÇOS</a></li>
-				<li><a href="javascript:scrollPage(4420)">PROFISSIONAIS</a></li>
-				<li><a href="javascript:scrollPage(5125)">CONTATO</a></li>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#sobre">SOBRE</a></li>
+				<li><a href="#servicos">SERVIÇOS</a></li>
+				<li><a href="#profissionais">PROFISSIONAIS</a></li>
+				<li><a href="#contato">CONTATO</a></li>
 			</ul>
 		</nav>
-		<a href="tel:05181152188" id="call"><img alt="Fone" src="images/telefone.png" class="wow flash"/></a>
+		<a href="tel:05181196311" id="call"><img alt="Fone" src="images/telefone.png" class="wow flash"/></a>
 
 		<a name="home"></a>
 		<header>
@@ -43,7 +73,7 @@
 				<span class="highlight">PERÍCIA</span> DE ÁUDIO E VÍDEO
 			</h1>
 			<p>
-				<img id="more" alt="Abaixo" src="images/abaixo.png" onclick="s(450)"/>
+				<a href="#sobre"><img class="hand" alt="Abaixo" src="images/abaixo.png"/>
 			</p>
 		</header>
 		
@@ -55,7 +85,7 @@
 					<hr/>
 				</header>
 				<p class="ct">
-					Desde 2014, pioneira no Rio Grande do Sul, realiza perícias em arquivos digitais de audio e vídeo, 
+					Desde 2014, pioneira no Rio Grande do Sul, realiza perícias em arquivos de áudio e vídeo, 
 					<br class="wrap"/>
 					transformando os vestígios relacionados a comunicação humana em evidências.
 				</p>
@@ -63,11 +93,11 @@
 			<article class="edmond">
 				<p class="ct">
 					<em>
-						“Quaisquer que sejam os passos, <br/>
+						<span class="quote">“</span>Quaisquer que sejam os passos, <br/>
 						quaisquer objetos tocados por eles, <br/>
 						o que quer que eles deixem, <br/>
 						mesmo que inconscientemente, <br/>
-						servirá de prova contra eles.”
+						servirá de prova contra eles.<span class="quote">”</span>
 					</em>
 					<br/>
 					<h6>&mdash; Edmond Locard</h6>
@@ -106,44 +136,47 @@
 				</p>
 			</article>
 			<br/>
-			<article class="service cols-2 left">
-				<aside>
+			<article class="service">
+				<div>
 					<img alt="Identificação de falantes" src="images/identificacao-falantes.jpg" class="photo wow zoomIn"/>
-				</aside>
-				<aside>
+				</div>
+				<div>
 					<h3>Identificação de falantes</h3>
 					<hr/>
 					<p>
 						Através da análise de voz, fala e linguagem realiza a identificação de falantes em mídias obtidas através de interceptação telefônica, vídeos, gravações ambientais.
 					</p>
-				</aside>
+				</div>
 			</article>
-			<article class="service cols-2 right">
-				<aside>
+			<article class="service">
+				<div>
+					<img alt="Transcrição de conteúdo" src="images/transcricao-conteudo.jpg" class="photo wow zoomIn"/>
+				</div>
+				<div>
 					<h3>Transcrição de conteúdo</h3>
 					<hr/>
 					<p>
 						Transcrição de diálogos a partir de conhecimentos técnicos fonoaudiológicos, tornando-os audíveis e buscando a inteligibilidade de palavras frequentemente sublimadas ao ouvinte comum.
 					</p>
-				</aside>
-				<aside>
-					<img alt="Transcrição de conteúdo" src="images/transcricao-conteudo.jpg" class="photo wow zoomIn"/>
-				</aside>
+				</div>
 			</article>
-			<article class="service cols-2 left">
-				<aside>
+			<article class="service">
+				<div>
 					<img alt="Análise de conteúdo" src="images/analise-conteudo.jpg" class="photo wow zoomIn"/>
-				</aside>
-				<aside>
+				</div>
+				<div>
 					<h3>Análise de conteúdo</h3>
 					<hr/>
 					<p>
 						Relato descritivo de diálogos e/ou fatos obtidos através de áudio ou vídeo além de contextualizá-los através da linguagem.
 					</p>
-				</aside>
+				</div>
 			</article>
-			<article class="service cols-2 right">
-				<aside>
+			<article class="service">
+				<div>
+					<img id="biometria-facial" alt="Biometria facial" src="images/biometria-facial.jpg" class="photo wow zoomIn"/>
+				</div>
+				<div>
 					<h3>Biometria facial</h3>
 					<hr/>
 					<p>
@@ -151,36 +184,32 @@
 					</p>
 					<p>
 						Embora o foco esteja na identificação facial, o analista pode obter outros elementos importantes para o reconhecimento na estrutura corpórea dos indivíduos como altura, marcha, postura, expressão corporal, cicatrizes, tatuagens e/ou quaisquer outros sinais observáveis.
-						<br/><br/><br/>
 					</p>
-				</aside>
-				<aside>
-					<img id="biometria-facial" alt="Biometria facial" src="images/biometria-facial.jpg" class="photo wow zoomIn"/>
-				</aside>
+				</div>
 			</article>
-			<article class="service cols-2 left">
-				<aside>
+			<article class="service">
+				<div>
 					<img alt="Verificação de manipulação de arquivos" src="images/verificacao-arquivos.jpg" class="photo wow zoomIn"/>
-				</aside>
-				<aside>
+				</div>
+				<div>
 					<h3>Verificação de manipulação<br/>de arquivos</h3>
 					<hr/>
 					<p>
 						Verificar a autenticidade do material.
 					</p>
-				</aside>
+				</div>
 			</article>
-			<article class="service cols-2 right">
-				<aside>
+			<article class="service">
+				<div>
+					<img alt="Exame grafotécnico" src="images/exame-grafotecnico.jpg" class="photo wow zoomIn"/>
+				</div>
+				<div>
 					<h3>Exame grafotécnico</h3>
 					<hr/>
 					<p>
-						Análise da grafia, com a finalidade da verificar a autenticidade ou a determinação da autoria de um determinado grafismo (assinaturas, documentos manuscritos).
+						Análise da grafia, com a finalidade de verificar a autenticidade ou a determinação da autoria de um determinado grafismo (assinaturas, documentos manuscritos).
 					</p>
-				</aside>
-				<aside>
-					<img alt="Exame grafotécnico" src="images/exame-grafotecnico.jpg" class="photo wow zoomIn"/>
-				</aside>
+				</div>
 			</article>
 		</section>
 
@@ -199,13 +228,13 @@
 			</article>
 			<br/>
 			<article class="cols-2">
-				<aside class="profissional">
+				<aside class="profissional wow fadeInLeft">
 					<table>
 						<tbody>
 							<tr>
 								<td colspan="2">
 									<h3>
-										Débora Von Saltiél
+										Débora von Saltiél
 									</h3>
 									<h4>
 										CRFa 7-8841
@@ -216,7 +245,7 @@
 							</tr>
 							<tr>
 								<td>
-									<img alt="ACADEFFOR" src="images/acadeffor.jpg" class="logo">
+									<img alt="ACADEFFOR" src="images/acadeffor.png" class="logo">
 								</td>
 								<td>
 									Certificada pela ACADEFFOR em Fonoaudiologia Forense
@@ -224,7 +253,7 @@
 							</tr>
 							<tr>
 								<td>
-									<img alt="TJ-RS" src="images/tjrs.jpg" class="logo">
+									<img alt="TJ-RS" src="images/tjrs.png" class="logo">
 								</td>
 								<td>
 									Fonoaudióloga elencada no Cadastro de Especialistas do Tribunal de Justiça do Estado do Rio Grande do Sul
@@ -238,7 +267,7 @@
 										<a href="tel:05191853608">
 											<img alt="Telefone" src="images/telefone2.jpg"/>
 											<br/>
-											(51) 9185 3608 <a href="whatsapp:05181152188"><img alt="WhatsApp" src="images/whatsapp.jpg"/></a>
+											(51) 9185 3608 <img alt="WhatsApp" src="images/whatsapp.svg" width="16" height="16"/>
 										</a>
 									</div>
 									<div>
@@ -253,7 +282,7 @@
 						</tfoot>
 					</table>
 				</aside>
-				<aside class="profissional">
+				<aside class="profissional wow fadeInRight">
 					<table>
 						<tbody>
 							<tr>
@@ -270,7 +299,7 @@
 							</tr>
 							<tr>
 								<td>
-									<img alt="ACADEFFOR" src="images/acadeffor.jpg" class="logo"/>
+									<img alt="ACADEFFOR" src="images/acadeffor.png" class="logo"/>
 								</td>
 								<td>
 									Certificada pela ACADEFFOR em Fonoaudiologia Forense
@@ -278,7 +307,7 @@
 							</tr>
 							<tr>
 								<td>
-									<img alt="IPOG/RS" src="images/ipog.jpg" class="logo"/>
+									<img alt="IPOG/RS" src="images/ipog.png" class="logo"/>
 								</td>
 								<td>
 									Especializanda em Pericia Criminal e Ciências Forense pelo IPOG/RS
@@ -292,7 +321,7 @@
 										<a href="tel:05181196311">
 											<img alt="Telefone" src="images/telefone2.jpg"/>
 											<br/>
-											(51) 8119 6311 <a href="whatsapp:05181152188"><img alt="WhatsApp" src="images/whatsapp.jpg"/></a>
+											(51) 8119 6311 <img alt="WhatsApp" src="images/whatsapp.svg" width="16" height="16"/>
 										</a>
 									</div>
 									<div>
@@ -312,7 +341,7 @@
 
 		<a name="contato"></a>
 		<section id="contato">
-			<article>
+			<article class="wow fadeInUp">
 				<header>
 					<h2>CONTATO</h2>
 					<hr/>
@@ -321,19 +350,19 @@
 					Conheça o nosso trabalho. Entre contato e agende uma visita.
 				</p>
 			</article>
-			<article class="cols-2">
+			<article class="cols-2 wow fadeInUp">
 				<aside>
 					<table>
 						<tr>
-							<td width="60px">
+							<td class="td-icone">
 								<img alt="Telefone" src="images/telefone-contato.png" class="icone"/>
 							</td>
 							<td>
-								<a href="" class="telefone shadow">
-									(51) 9185 3608
+								<a href="tel:05191853608" class="telefone shadow">
+									(51) 9185 3608 &nbsp; 
 								</a>
-								&nbsp;
-								<a href="" class="telefone shadow">
+								<br class="unwrap"/>
+								<a href="tel:05181196311" class="telefone shadow">
 									(51) 8119 6311
 								</a>
 							</td>
@@ -343,11 +372,11 @@
 				<aside>
 					<table>
 						<tr>
-							<td width="60px">
+							<td class="td-icone">
 								<img alt="E-mail" src="images/email-contato.png" class="icone"/>
 							</td>
 							<td>
-								<a href="" class="email shadow">
+								<a href="mailto:contato@ffrs.com.br" class="email shadow">
 									contato@ffrs.com.br
 								</a>
 							</td>
@@ -355,25 +384,25 @@
 					</table>
 				</aside>
 			</article>
-			<article>
+			<article class="wow fadeInUp">
 				<p class="ct">
-					[FACEBOOK]
+					<!-- <iframe class="" src="https://www.facebook.com/v2.7/plugins/like.php?app_id=&amp;container_width=340&amp;href=https%3A%2F%2Fwww.facebook.com%2FFonoaudiologia-Forense-RS-1551299601807530%2F&amp;locale=pt_BR&amp;sdk=joey&amp;colorscheme=dark&amp;share=true&amp;show_faces=true" style="border: medium none; visibility: visible; width: 340px; height: 56px;" title="fb:like Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f16ed361d1636d6" frameborder="0" height="1000px" width="1000px"></iframe> -->
 				</p>
 			</article>
-			<article>
+			<article class="wow fadeInUp">
 				<p class="ct">
 					Dúvidas? Sugestões? Clique abaixo e deixe o seu recado!
 				</p>
 				<p class="ct">
-					<button class="shadow">Feedback</button>
+					<button class="shadow hand" onclick="location.href='mailto:feedback@ffrs.com.br'">Feedback</button>
 				</p>
 			</article>
 		</section>
 
 		<footer>
 			<a href="http://www.tiedesign.com.br"><img id="tiedesign" alt="Tie Design" title="Tie Design" src="images/TieDesign.jpg"/></a>
-			<p>
-				<img alt="Logo" src="images/logo-mini.jpg"/>
+			<p class="wow fadeInUp">
+				<img alt="Logo" src="images/logo-mini.png"/>
 				<br/>
 				&copy; 2016 - Todos os direitos reservados
 			</p>

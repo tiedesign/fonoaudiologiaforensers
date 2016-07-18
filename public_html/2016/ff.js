@@ -1,15 +1,3 @@
-function toogleMenu(){
-	var mn = document.getElementById('menu');
-	var mi = document.getElementById('menuitems');
-	if (mi.className == '') {
-		mn.src = 'images/menu.png';
-		mi.className = 'close';
-	} else {
-		mn.src = 'images/close.png';
-		mi.className = '';
-	}
-}
-
 new WOW().init();
 
 var targetScrollY=0;
@@ -19,7 +7,7 @@ window.onload = os;
 window.onscroll = os;
 function os() {
 	var t = document.getElementById('top');
-	if (window.scrollY > 5000) {
+	if (window.scrollY > 1300) {
 		t.style.display = 'block';
 	} else {
 		t.style.display = 'none';
@@ -52,3 +40,24 @@ function s(Y)
 	}, 1);
   } 
 }
+
+function showMenu() {
+	document.getElementById('menu').src = 'images/close.png';
+	document.getElementById('menuitems').className = '';
+}
+function hideMenu() {
+	document.getElementById('menu').src = 'images/menu.png';
+	document.getElementById('menuitems').className = 'close';
+}
+function isOpened(mi){
+	mi.className == '';
+}
+function toogleMenu(){
+	var mn = document.getElementById('menu');
+	var mi = document.getElementById('menuitems');
+	if (isOpened(mi))
+		hideMenu();
+	else
+		showMenu();
+}
+document.getElementById('menuitems').onclick = hideMenu;
