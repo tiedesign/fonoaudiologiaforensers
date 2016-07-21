@@ -39,7 +39,10 @@ body>header,body>footer {
 }
 
 body>header {
-	background: url('images/sound-wave.jpg') 50% 80% repeat-x #444349;
+	background-image: url('images/dotted.png'), url('images/sound-wave.png');
+	background-color: #444349;
+	background-repeat: repeat, repeat-x;
+	background-position: top left, 50% 80%;
 	height: 400px;
 	text-align: center;
 	padding: 16px 10px;
@@ -410,7 +413,7 @@ h6 {
 
 #contato {
 	color: #fff;
-	background: #444349;
+	background: #444349 url('images/dotted.png');
 	min-height: 520px;
 }
 
