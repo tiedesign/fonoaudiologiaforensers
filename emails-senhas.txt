@@ -1,0 +1,59 @@
+Senhas:
+
+	contato@...
+	!pW0ff@c
+
+	feedback@...
+	!pW0ff@f
+
+	debora@...
+	!pW0ff@d
+
+	samantha@...
+	!pW0ff@s
+
+* alterei o último caractere
+
+
+Redirecionamentos de domínio:
+
+	contato@ffrs.com.br
+		-> contato@fonoaudiologiaforensers.com.br
+	debora@ffrs.com.br
+		-> debora@fonoaudiologiaforensers.com.br
+	feedback@ffrs.com.br
+		-> feedback@fonoaudiologiaforensers.com.br
+	samantha@ffrs.com.br
+		-> samantha@fonoaudiologiaforensers.com.br
+
+Demais redirecionamentos:
+
+	contato@fonoaudiologiaforensers.com.br
+		-> debora@fonoaudiologiaforensers.com.br
+		-> samantha@fonoaudiologiaforensers.com.br
+
+	feedback@fonoaudiologiaforensers.com.br
+		-> debora@fonoaudiologiaforensers.com.br
+		-> samantha@fonoaudiologiaforensers.com.br 	
+
+
+Dados para configuração do cliente de e-mail:
+
+	Nome de usuário: [e-mail completo da conta]
+	Senha: [senha da conta]
+
+	Servidor de entrada: srv32.prodns.com.br
+	Porta IMAP: 993
+
+	Servidor de saída: srv32.prodns.com.br
+	Porta SMTP: 465
+
+Quando puderem, tentem configurar a conta e enviar e-mail uma para a outra pra testar e me avisem se deu tudo OK.
+
+Se precisarem de ajuda, é só chamar ;)
+
+
+
+
+
+ainda hoje publico o site no domínio oficial www.fonoaudiologiaforensers.com.br

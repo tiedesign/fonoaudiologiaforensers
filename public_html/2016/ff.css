@@ -406,20 +406,16 @@ h6 {
 	padding: 0px 12px 0 0;
 }
 
-.icone {
-	float: left;
-	padding: 6px 12px 0 0;
-}
-
 #contato {
 	color: #fff;
 	background: #444349 url('images/dotted.png');
 	min-height: 520px;
+	text-align: center;
 }
 
 #contato article {
 	margin: 0 auto;
-	width: 1000px;
+	padding: 24px 0;
 }
 
 #contato h2 {
@@ -427,26 +423,21 @@ h6 {
 }
 
 #contato p {
-	margin: 36px 0;
 }
 
-#contato a {	
-}
-
-#contato .td-icone {
-	width: 60px;
+#contato .icone {
+	width: 56px;
+	height: 56px;
 }
 
 #contato .email {
 	color: #DA491C;	
 	font-size: 1.4em;
-	line-height: 2.8em;
 }
 
 #contato .telefone {
 	color: #fff;
 	font-size: 1.4em;
-	line-height: 2.8em;
 }
 
 .service h3 {
@@ -489,12 +480,11 @@ table {
 }
 
 tfoot td {
-	padding: 24px 0 36px 0;
+	margin: 0px;
+	padding: 24px 0 0 0;
 }
 
 tfoot td div {
-	float:left;
-	width:50%;
 	text-align:center;
 }
 
@@ -531,6 +521,16 @@ button {
 
 .resp5 {
 	display: block;
+}
+
+#contato iframe {
+	margin: 0 auto;
+}
+#fb-standard {
+	display: block;
+}
+#fb-button-count {
+	display: none;
 }
 
 /* Medium Devices, Desktops */
@@ -597,25 +597,11 @@ button {
 		-moz-column-gap: 0.5em;
 		column-gap: 0.5em;
 	}
-	#contato article {
-		width: 700px;
-	}
-	#contato .icone {
-		width: 36px;
-	}
-	#contato .td-icone {
-		width: 36px;
-	}
-	#contato .email {
-		font-size: 1.4em;
-		line-height: 2.8em;
-	}
-	#contato .telefone {
-		font-size: 1.4em;
-		line-height: 1.5em;
-	}
 	.edmond {
 		background-position: 100% 50%;
+	}
+	#contato article {
+		padding: 18px 0;
 	}
 }
 
@@ -652,18 +638,17 @@ button {
 		font-size: 1em;
 	}
 	#contato article {
-		width: 400px;
+		padding: 12px 0;
 	}
-	#contato .logo {
+	#contato .icone {
 		width: 36px;
+		height: 36px;
 	}
 	#contato .telefone {
 		font-size: 1em;
-		line-height: 1.6em;
 	}
 	#contato .email {
 		font-size: 1em;
-		line-height: 1.6em;
 	}
 	.logo {
 		float: none;
@@ -722,6 +707,12 @@ button {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+	#fb-standard {
+		display: none;
+	}
+	#fb-button-count {
+		display: block;
+	}
 	.resp2 {
 		display: block;
 	}
