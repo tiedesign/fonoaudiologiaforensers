@@ -50,7 +50,7 @@ function hideMenu() {
 	document.getElementById('menuitems').className = 'close';
 }
 function isOpened(mi){
-	mi.className == '';
+	return mi.className == '';
 }
 function toogleMenu(){
 	var mn = document.getElementById('menu');
