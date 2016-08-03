@@ -1,3 +1,45 @@
+Fiz uma análise pesquisando algumas combinações de palavras-chaves e percebi que os resultados já aparecem bastante na primeira página, o que carateriza um bom ranking, apesar de ser recente e ainda sem muita divugação.
+
+O Google, por exemplo, aplica a indexação combinando palavras-chave com o conteúdo da página. Dessa forma, as palavras-chave que estão presentes também no conteúdo da página possuem um "peso maior" e portanto ajuda no posicionamento do site nos resultados das pesquisas.
+
+Seguem algumas pontos que julgo importantes para um posicionamento ainda melhor ou mais adequado para alguns cenários de pesquisa mais focado em serviço.
+
+1. Sugestão de pesquisa do próprio Google ao iniciar a digitação: "perícia forense"
+
+Ação: Incluir "perícia forense" como palavra-chave e, na medida do possível, mencionar no conteúdo da página.
+
+2. Visto que o site tem relação com prestação de serviço, a localidade se torna muito relevante
+
+Ação: Mencionar a localidade na descrição da empresa. Atualmente só é considerado o Estado RS tendo maior peso nas pesquisas.
+Possibilita um melhor posicionamento em pesquisas como: "perícia de voz porto alegre" ou "identificação de falantes porto alegre"
+
+3. Descrição breve do serviço Verificação de manipulação de arquivos
+
+Ação: Elaborar um detalhamento maior, pois atualmente está escrito apenas "Verificar a autenticidade do material.", o que pode comprometer o posicionamento pesquisando pelo serviço por um perfil de usuário mais leigo.
+
+4. Divulgação do site
+
+Ações:
+
+	- Divulgar o site através de redes sociais
+	- Divulgar o site para listas de e-mail
+	- Publicar o link do site em blogs da área (Quanto mais links externos houverem, melhor o ranking)
+	- Avaliar para o futuro trabalhar com links patrocinados (Google Adwords, aparecem antes ainda dos resultados da pesquisa)
+
+
+Exemplo:
+
+	A Fonoaudiologia Forense RS
+
+	Realizamos perícias em arquivos de áudio e vídeo,
+	transformando os vestígios relacionados à comunicação humana em evidências. 
+
+	Pioneira no Rio Grande do Sul, iniciamos em 2014 e atualmente atendemos em todo o Estado,
+	principalmente em Porto Alegre/RS e Região Metropolitana, ainda que já tenhamos atuado também em Santa Catarina.
+
+Nesse caso, 
+
+
 Ajustes:
 
 	- Descrição do site no Google está sendo truncado.
@@ -27,7 +69,7 @@ Sugestões:
 
 			Pioneira no Rio Grande do Sul, iniciamos em 2014 e atualmente atendemos em todo o Estado, principalmente em Porto Alegre/RS e Região Metropolitana, ainda que já tenhamos atuado também em Santa Catarina.
 
-			
+
 
 		- utilizar "Porto Alegre"
 
