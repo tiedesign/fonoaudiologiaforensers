@@ -8,7 +8,7 @@
 
 body {
 	margin:0;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 ::selection {
@@ -274,7 +274,7 @@ h6 {
 
 #servicos .service {
 	min-height: 400px;
-	width: 1080px;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -312,7 +312,8 @@ h6 {
 
 .photo {
 	border: 10px solid #fff;
-	margin: 12px;
+	margin: 12px 0;
+	width: 90%;
 }
 
 #servicos div {
@@ -579,12 +580,12 @@ button {
 		height: 120px;
 		left: 330px;
 	}
-	#servicos .service {
+/*	#servicos .service {
 		width: 470px;
 	}
 	.photo {
 		width: 350px;
-	}
+	}*/
 	#profissionais {
 		width: 660px;
 		background: none;
@@ -625,6 +626,9 @@ button {
 	}
 	#logo img{
 		width: 200px;
+	}
+	#servicos {
+		height: 2900px;
 	}
 	#servicos div {
 		width: 100%;
@@ -763,13 +767,10 @@ button {
 	.photo {
 		width: 250px;
 	}
-	#servicos {
-		min-height: 3200px;
-	}
-	#servicos .service {
+/*	#servicos .service {
     	width: 280px;
-	}
-	#servicos hr {
+	}*/
+	#servicos .service hr {
 		display: none;
 	}
 	#profissionais {
