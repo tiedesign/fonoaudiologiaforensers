@@ -273,7 +273,7 @@ h6 {
 }
 
 #servicos .service {
-	min-height: 400px;
+	min-height: 600px;
 	width: 90%;
 	margin: 0 auto;
 }
@@ -628,7 +628,10 @@ button {
 		width: 200px;
 	}
 	#servicos {
-		height: 2900px;
+		min-height: 3100px;
+	}
+	#servicos .service {
+		min-height: 500px;
 	}
 	#servicos div {
 		width: 100%;
@@ -767,9 +770,12 @@ button {
 	.photo {
 		width: 250px;
 	}
-/*	#servicos .service {
-    	width: 280px;
-	}*/
+	#servicos {
+		min-height: 3400px;
+	}
+	#servicos .service {
+		min-height: 500px;
+	}
 	#servicos .service hr {
 		display: none;
 	}
@@ -806,5 +812,11 @@ button {
 	}
 	#call{
 		display: none;
+	}
+	#servicos {
+		min-height: 3450px;
+	}
+	#servicos .service {
+		min-height: 500px;
 	}
 }
